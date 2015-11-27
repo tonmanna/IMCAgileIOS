@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CAEEB71C082DA6001C0778 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 03CAEEB61C082DA6001C0778 /* Controller */; };
+		03CAEEB91C082DCD001C0778 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CAEEB81C082DCD001C0778 /* Report.storyboard */; };
+		9CBEF5B81C0791D70098DAB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5B71C0791D70098DAB3 /* main.m */; };
+		9CBEF5BB1C0791D70098DAB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5BA1C0791D70098DAB3 /* AppDelegate.m */; };
+		9CBEF5BE1C0791D70098DAB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5BD1C0791D70098DAB3 /* ViewController.m */; };
+		9CBEF5C11C0791D70098DAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEF5BF1C0791D70098DAB3 /* Main.storyboard */; };
+		9CBEF5C41C0791D70098DAB3 /* Park_Ko.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5C21C0791D70098DAB3 /* Park_Ko.xcdatamodeld */; };
+		9CBEF5C61C0791D70098DAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEF5C51C0791D70098DAB3 /* Assets.xcassets */; };
+		9CBEF5C91C0791D70098DAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBEF5C71C0791D70098DAB3 /* LaunchScreen.storyboard */; };
+		9CBEF5D41C0791D70098DAB3 /* Park_KoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5D31C0791D70098DAB3 /* Park_KoTests.m */; };
+		9CBEF5DF1C0791D70098DAB3 /* Park_KoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5DE1C0791D70098DAB3 /* Park_KoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CBEF5D01C0791D70098DAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CBEF5AB1C0791D70098DAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBEF5B21C0791D70098DAB3;
+			remoteInfo = "Park-Ko";
+		};
+		9CBEF5DB1C0791D70098DAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CBEF5AB1C0791D70098DAB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBEF5B21C0791D70098DAB3;
+			remoteInfo = "Park-Ko";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CAEEB61C082DA6001C0778 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		03CAEEB81C082DCD001C0778 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
+		9CBEF5B31C0791D70098DAB3 /* Park-Ko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park-Ko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBEF5B71C0791D70098DAB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CBEF5B91C0791D70098DAB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CBEF5BA1C0791D70098DAB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CBEF5BC1C0791D70098DAB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CBEF5BD1C0791D70098DAB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CBEF5C01C0791D70098DAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CBEF5C31C0791D70098DAB3 /* Park_Ko.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Park_Ko.xcdatamodel; sourceTree = "<group>"; };
+		9CBEF5C51C0791D70098DAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CBEF5C81C0791D70098DAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CBEF5CA1C0791D70098DAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBEF5CF1C0791D70098DAB3 /* Park-KoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park-KoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBEF5D31C0791D70098DAB3 /* Park_KoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Park_KoTests.m; sourceTree = "<group>"; };
+		9CBEF5D51C0791D70098DAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBEF5DA1C0791D70098DAB3 /* Park-KoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park-KoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBEF5DE1C0791D70098DAB3 /* Park_KoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Park_KoUITests.m; sourceTree = "<group>"; };
+		9CBEF5E01C0791D70098DAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CBEF5B01C0791D70098DAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5CC1C0791D70098DAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5D71C0791D70098DAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CBEF5AA1C0791D70098DAB3 = {
+			isa = PBXGroup;
+			children = (
+				9CBEF5B51C0791D70098DAB3 /* Park-Ko */,
+				9CBEF5D21C0791D70098DAB3 /* Park-KoTests */,
+				9CBEF5DD1C0791D70098DAB3 /* Park-KoUITests */,
+				9CBEF5B41C0791D70098DAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CBEF5B41C0791D70098DAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CBEF5B31C0791D70098DAB3 /* Park-Ko.app */,
+				9CBEF5CF1C0791D70098DAB3 /* Park-KoTests.xctest */,
+				9CBEF5DA1C0791D70098DAB3 /* Park-KoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CBEF5B51C0791D70098DAB3 /* Park-Ko */ = {
+			isa = PBXGroup;
+			children = (
+				03CAEEB61C082DA6001C0778 /* Controller */,
+				9CBEF5B91C0791D70098DAB3 /* AppDelegate.h */,
+				9CBEF5BA1C0791D70098DAB3 /* AppDelegate.m */,
+				9CBEF5BC1C0791D70098DAB3 /* ViewController.h */,
+				9CBEF5BD1C0791D70098DAB3 /* ViewController.m */,
+				9CBEF5BF1C0791D70098DAB3 /* Main.storyboard */,
+				9CBEF5C51C0791D70098DAB3 /* Assets.xcassets */,
+				9CBEF5C71C0791D70098DAB3 /* LaunchScreen.storyboard */,
+				9CBEF5CA1C0791D70098DAB3 /* Info.plist */,
+				9CBEF5C21C0791D70098DAB3 /* Park_Ko.xcdatamodeld */,
+				9CBEF5B61C0791D70098DAB3 /* Supporting Files */,
+				03CAEEB81C082DCD001C0778 /* Report.storyboard */,
+			);
+			path = "Park-Ko";
+			sourceTree = "<group>";
+		};
+		9CBEF5B61C0791D70098DAB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CBEF5B71C0791D70098DAB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CBEF5D21C0791D70098DAB3 /* Park-KoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CBEF5D31C0791D70098DAB3 /* Park_KoTests.m */,
+				9CBEF5D51C0791D70098DAB3 /* Info.plist */,
+			);
+			path = "Park-KoTests";
+			sourceTree = "<group>";
+		};
+		9CBEF5DD1C0791D70098DAB3 /* Park-KoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CBEF5DE1C0791D70098DAB3 /* Park_KoUITests.m */,
+				9CBEF5E01C0791D70098DAB3 /* Info.plist */,
+			);
+			path = "Park-KoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CBEF5B21C0791D70098DAB3 /* Park-Ko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBEF5E31C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-Ko" */;
+			buildPhases = (
+				9CBEF5AF1C0791D70098DAB3 /* Sources */,
+				9CBEF5B01C0791D70098DAB3 /* Frameworks */,
+				9CBEF5B11C0791D70098DAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park-Ko";
+			productName = "Park-Ko";
+			productReference = 9CBEF5B31C0791D70098DAB3 /* Park-Ko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CBEF5CE1C0791D70098DAB3 /* Park-KoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBEF5E61C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-KoTests" */;
+			buildPhases = (
+				9CBEF5CB1C0791D70098DAB3 /* Sources */,
+				9CBEF5CC1C0791D70098DAB3 /* Frameworks */,
+				9CBEF5CD1C0791D70098DAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CBEF5D11C0791D70098DAB3 /* PBXTargetDependency */,
+			);
+			name = "Park-KoTests";
+			productName = "Park-KoTests";
+			productReference = 9CBEF5CF1C0791D70098DAB3 /* Park-KoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CBEF5D91C0791D70098DAB3 /* Park-KoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CBEF5E91C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-KoUITests" */;
+			buildPhases = (
+				9CBEF5D61C0791D70098DAB3 /* Sources */,
+				9CBEF5D71C0791D70098DAB3 /* Frameworks */,
+				9CBEF5D81C0791D70098DAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CBEF5DC1C0791D70098DAB3 /* PBXTargetDependency */,
+			);
+			name = "Park-KoUITests";
+			productName = "Park-KoUITests";
+			productReference = 9CBEF5DA1C0791D70098DAB3 /* Park-KoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CBEF5AB1C0791D70098DAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Titipan Sakunwongsalee";
+				TargetAttributes = {
+					9CBEF5B21C0791D70098DAB3 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9CBEF5CE1C0791D70098DAB3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9CBEF5B21C0791D70098DAB3;
+					};
+					9CBEF5D91C0791D70098DAB3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9CBEF5B21C0791D70098DAB3;
+					};
+				};
+			};
+			buildConfigurationList = 9CBEF5AE1C0791D70098DAB3 /* Build configuration list for PBXProject "Park-Ko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CBEF5AA1C0791D70098DAB3;
+			productRefGroup = 9CBEF5B41C0791D70098DAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CBEF5B21C0791D70098DAB3 /* Park-Ko */,
+				9CBEF5CE1C0791D70098DAB3 /* Park-KoTests */,
+				9CBEF5D91C0791D70098DAB3 /* Park-KoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CBEF5B11C0791D70098DAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBEF5C91C0791D70098DAB3 /* LaunchScreen.storyboard in Resources */,
+				9CBEF5C61C0791D70098DAB3 /* Assets.xcassets in Resources */,
+				03CAEEB71C082DA6001C0778 /* Controller in Resources */,
+				9CBEF5C11C0791D70098DAB3 /* Main.storyboard in Resources */,
+				03CAEEB91C082DCD001C0778 /* Report.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5CD1C0791D70098DAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5D81C0791D70098DAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CBEF5AF1C0791D70098DAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBEF5BE1C0791D70098DAB3 /* ViewController.m in Sources */,
+				9CBEF5BB1C0791D70098DAB3 /* AppDelegate.m in Sources */,
+				9CBEF5B81C0791D70098DAB3 /* main.m in Sources */,
+				9CBEF5C41C0791D70098DAB3 /* Park_Ko.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5CB1C0791D70098DAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBEF5D41C0791D70098DAB3 /* Park_KoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CBEF5D61C0791D70098DAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBEF5DF1C0791D70098DAB3 /* Park_KoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CBEF5D11C0791D70098DAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CBEF5B21C0791D70098DAB3 /* Park-Ko */;
+			targetProxy = 9CBEF5D01C0791D70098DAB3 /* PBXContainerItemProxy */;
+		};
+		9CBEF5DC1C0791D70098DAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CBEF5B21C0791D70098DAB3 /* Park-Ko */;
+			targetProxy = 9CBEF5DB1C0791D70098DAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CBEF5BF1C0791D70098DAB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBEF5C01C0791D70098DAB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CBEF5C71C0791D70098DAB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBEF5C81C0791D70098DAB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CBEF5E11C0791D70098DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CBEF5E21C0791D70098DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CBEF5E41C0791D70098DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Park-Ko/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-Ko";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CBEF5E51C0791D70098DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Park-Ko/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-Ko";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9CBEF5E71C0791D70098DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Park-KoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-KoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park-Ko.app/Park-Ko";
+			};
+			name = Debug;
+		};
+		9CBEF5E81C0791D70098DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Park-KoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-KoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park-Ko.app/Park-Ko";
+			};
+			name = Release;
+		};
+		9CBEF5EA1C0791D70098DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Park-KoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-KoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Park-Ko";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9CBEF5EB1C0791D70098DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Park-KoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TesT.Park-KoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Park-Ko";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CBEF5AE1C0791D70098DAB3 /* Build configuration list for PBXProject "Park-Ko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBEF5E11C0791D70098DAB3 /* Debug */,
+				9CBEF5E21C0791D70098DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBEF5E31C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-Ko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBEF5E41C0791D70098DAB3 /* Debug */,
+				9CBEF5E51C0791D70098DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBEF5E61C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-KoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBEF5E71C0791D70098DAB3 /* Debug */,
+				9CBEF5E81C0791D70098DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CBEF5E91C0791D70098DAB3 /* Build configuration list for PBXNativeTarget "Park-KoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CBEF5EA1C0791D70098DAB3 /* Debug */,
+				9CBEF5EB1C0791D70098DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CBEF5C21C0791D70098DAB3 /* Park_Ko.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CBEF5C31C0791D70098DAB3 /* Park_Ko.xcdatamodel */,
+			);
+			currentVersion = 9CBEF5C31C0791D70098DAB3 /* Park_Ko.xcdatamodel */;
+			path = Park_Ko.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9CBEF5AB1C0791D70098DAB3 /* Project object */;
+}
