@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03CAEEB71C082DA6001C0778 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 03CAEEB61C082DA6001C0778 /* Controller */; };
 		03CAEEB91C082DCD001C0778 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CAEEB81C082DCD001C0778 /* Report.storyboard */; };
+		03DB57C11C08341D0031F8AC /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB57C01C08341D0031F8AC /* ReportViewController.m */; };
 		9CBEF5B81C0791D70098DAB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5B71C0791D70098DAB3 /* main.m */; };
 		9CBEF5BB1C0791D70098DAB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5BA1C0791D70098DAB3 /* AppDelegate.m */; };
 		9CBEF5BE1C0791D70098DAB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBEF5BD1C0791D70098DAB3 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		03CAEEB61C082DA6001C0778 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		03CAEEB81C082DCD001C0778 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
+		03DB57BF1C08341D0031F8AC /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		03DB57C01C08341D0031F8AC /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
 		9CBEF5B31C0791D70098DAB3 /* Park-Ko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park-Ko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBEF5B71C0791D70098DAB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CBEF5B91C0791D70098DAB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				9CBEF5C21C0791D70098DAB3 /* Park_Ko.xcdatamodeld */,
 				9CBEF5B61C0791D70098DAB3 /* Supporting Files */,
 				03CAEEB81C082DCD001C0778 /* Report.storyboard */,
+				03DB57BF1C08341D0031F8AC /* ReportViewController.h */,
+				03DB57C01C08341D0031F8AC /* ReportViewController.m */,
 			);
 			path = "Park-Ko";
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DB57C11C08341D0031F8AC /* ReportViewController.m in Sources */,
 				9CBEF5BE1C0791D70098DAB3 /* ViewController.m in Sources */,
 				9CBEF5BB1C0791D70098DAB3 /* AppDelegate.m in Sources */,
 				9CBEF5B81C0791D70098DAB3 /* main.m in Sources */,
