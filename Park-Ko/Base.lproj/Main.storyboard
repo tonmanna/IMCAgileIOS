@@ -37,7 +37,7 @@
                                 <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
                                 <state key="normal" title="สฬ 5420"/>
                                 <connections>
-                                    <action selector="clickSecondCar:" destination="pWQ-FO-HGL" eventType="touchUpInside" id="r0G-wF-ebI"/>
+                                    <action selector="clickSecondCar:" destination="pWQ-FO-HGL" eventType="touchUpInside" id="h4Q-iv-GGc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,9 +55,8 @@
                     <navigationItem key="navigationItem" id="0M6-rU-foL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="clickSecondCar" destination="hXo-cw-WZ2" id="Ss1-qD-KmK"/>
                         <outlet property="firstCarButton" destination="vNW-A8-Ehc" id="vtQ-M6-DGZ"/>
-                        <outlet property="secondCarButton" destination="hXo-cw-WZ2" id="Jge-p9-hHl"/>
+                        <outlet property="secondCarButton" destination="hXo-cw-WZ2" id="yvk-Ba-Btb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sb6-Xy-tOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
