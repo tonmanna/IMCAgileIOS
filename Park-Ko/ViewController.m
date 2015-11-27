@@ -15,6 +15,8 @@
 
 @implementation ViewController
 
+@synthesize homeViewCtrl;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -28,6 +30,22 @@
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Report" bundle:nil];
     ReportViewController *newView = [sb instantiateViewControllerWithIdentifier:@"SBReport"];
     [self.navigationController pushViewController:newView animated:YES];
+}
+
+#pragma mark - Button Action
+- (IBAction)clickFirstCar:(id)sender {
+    [self goToHomeViewCtrl];
+}
+
+- (IBAction)clickSecondCar:(id)sender {
+    [self goToHomeViewCtrl];
+}
+
+#pragma mark - Go To Home
+- (void)goToHomeViewCtrl{
+    if (!homeViewCtrl) {
+        homeViewCtrl = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+    }
 }
 
 @end
