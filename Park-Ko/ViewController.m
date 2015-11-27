@@ -46,6 +46,8 @@
     if (!homeViewCtrl) {
         homeViewCtrl = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
     }
+    
+    [self.navigationController pushViewController:homeViewCtrl animated:YES];
 }
 
 @end
