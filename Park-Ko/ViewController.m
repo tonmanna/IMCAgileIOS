@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "ReportViewController.h"
 
 @interface ViewController ()
 
@@ -25,11 +24,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)GoToShowReport:(id)sender {
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Report" bundle:nil];
-    ReportViewController *newView = [sb instantiateViewControllerWithIdentifier:@"SBReport"];
-    [self.navigationController pushViewController:newView animated:YES];
 }
 
 #pragma mark - Button Action

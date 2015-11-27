@@ -2,14 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Pspimpdeed.ttf</string>
-		<string>ps_pimpdeediiM.ttf</string>
-		<string>PspimpdeedII.ttf</string>
-		<string>PspimpdeedIII.ttf</string>
-		<string>pspimpdeedIISM.ttf</string>
-	</array>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -52,6 +44,14 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ps_pimpdeediiM.ttf</string>
+		<string>Pspimpdeed.ttf</string>
+		<string>PspimpdeedII.ttf</string>
+		<string>PspimpdeedIII.ttf</string>
+		<string>pspimpdeedIISM.ttf</string>
 	</array>
 </dict>
 </plist>

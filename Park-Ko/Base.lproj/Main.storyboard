@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mOg-s5-EVn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="sa5-HZ-tdB">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Pspimpdeed.ttf">
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+            <string>PSPimpdeed</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="Hns-2l-zy3">
@@ -16,42 +27,166 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLy-jU-Wg0">
-                                <rect key="frame" x="137" y="225" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vNW-A8-Ehc">
+                                <rect key="frame" x="132" y="156" width="56" height="49"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
+                                <state key="normal" title="ณข 1597"/>
                                 <connections>
-                                    <action selector="GoToShowReport:" destination="pWQ-FO-HGL" eventType="touchUpInside" id="ZA3-qV-O7p"/>
+                                    <action selector="clickFirstCar:" destination="pWQ-FO-HGL" eventType="touchUpInside" id="rDQ-gB-Ztc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXo-cw-WZ2">
+                                <rect key="frame" x="131" y="255" width="58" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
+                                <state key="normal" title="สฬ 5420"/>
+                                <connections>
+                                    <action selector="clickSecondCar:" destination="pWQ-FO-HGL" eventType="touchUpInside" id="h4Q-iv-GGc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vNW-A8-Ehc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="40p-0h-oSC" secondAttribute="bottom" id="2we-4e-aA3"/>
+                            <constraint firstItem="vNW-A8-Ehc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="tzy-XH-RxI" secondAttribute="leading" id="4SZ-zY-GMy"/>
+                            <constraint firstItem="hXo-cw-WZ2" firstAttribute="centerX" secondItem="vNW-A8-Ehc" secondAttribute="centerX" id="56E-NS-l6E"/>
+                            <constraint firstItem="hXo-cw-WZ2" firstAttribute="top" secondItem="vNW-A8-Ehc" secondAttribute="bottom" constant="50" id="BnE-r1-q1E"/>
+                            <constraint firstItem="vNW-A8-Ehc" firstAttribute="centerX" secondItem="tzy-XH-RxI" secondAttribute="centerX" id="Qid-ek-Ihn"/>
+                            <constraint firstItem="vNW-A8-Ehc" firstAttribute="centerY" secondItem="tzy-XH-RxI" secondAttribute="centerY" constant="-60" id="hUO-js-yKu"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Bdp-wB-uRw"/>
+                    <navigationItem key="navigationItem" id="0M6-rU-foL"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="firstCarButton" destination="vNW-A8-Ehc" id="vtQ-M6-DGZ"/>
+                        <outlet property="secondCarButton" destination="hXo-cw-WZ2" id="yvk-Ba-Btb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sb6-Xy-tOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1682" y="-289"/>
+            <point key="canvasLocation" x="-635" y="-305"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="UwJ-nZ-5Jx">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="0aE-3H-PJb" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rGq-Dq-lTu"/>
+                        <viewControllerLayoutGuide type="bottom" id="DtG-36-J2b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D3R-0P-e9q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NE-tR-8nK">
+                                <rect key="frame" x="137" y="250" width="102" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
+                                <state key="normal" title="View Invoice"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4uD-jS-Qtw">
+                                <rect key="frame" x="137" y="349" width="102" height="49"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
+                                <state key="normal" title="Check Status"/>
+                                <connections>
+                                    <action selector="clickCheckStatus:" destination="0aE-3H-PJb" eventType="touchUpInside" id="hnw-1S-v10"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4uD-jS-Qtw" firstAttribute="centerX" secondItem="4NE-tR-8nK" secondAttribute="centerX" id="9dT-3G-97B"/>
+                            <constraint firstItem="4NE-tR-8nK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="rGq-Dq-lTu" secondAttribute="bottom" id="GkM-An-zfD"/>
+                            <constraint firstItem="4NE-tR-8nK" firstAttribute="centerX" secondItem="D3R-0P-e9q" secondAttribute="centerX" id="MZc-dK-py9"/>
+                            <constraint firstItem="4NE-tR-8nK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="D3R-0P-e9q" secondAttribute="leading" id="SCB-XF-mps"/>
+                            <constraint firstItem="4uD-jS-Qtw" firstAttribute="top" secondItem="4NE-tR-8nK" secondAttribute="bottom" constant="50" id="YrI-s3-F9K"/>
+                            <constraint firstItem="4NE-tR-8nK" firstAttribute="centerY" secondItem="D3R-0P-e9q" secondAttribute="centerY" constant="-60" id="tzo-dF-Hnu"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="checkStatusButton" destination="4uD-jS-Qtw" id="8j2-cw-Ta8"/>
+                        <outlet property="viewInvoiceButton" destination="4NE-tR-8nK" id="KxF-S7-xGr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRL-Fh-3LR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="-305"/>
+        </scene>
+        <!--Current Status View Controller-->
+        <scene sceneID="tAo-xL-g3D">
+            <objects>
+                <viewController storyboardIdentifier="CurrentStatusViewController" id="8EV-b5-IPH" customClass="CurrentStatusViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="00n-ZP-DMZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="mVe-S5-Lxe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tKd-9O-dKD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="สฬ xxxx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXf-0a-4CE">
+                                <rect key="frame" x="20" y="40" width="65" height="37"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="เข้า HH:mm น." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIR-rf-jCr">
+                                <rect key="frame" x="20" y="87" width="78" height="31"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ออก HH:mm น." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gb-6d-0hV">
+                                <rect key="frame" x="20" y="118" width="81" height="31"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="PSPimpdeed" family="PS Pimpdeed" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XXf-0a-4CE" firstAttribute="leading" secondItem="tKd-9O-dKD" secondAttribute="leading" constant="20" id="HWM-Vg-0zg"/>
+                            <constraint firstItem="uIR-rf-jCr" firstAttribute="top" secondItem="XXf-0a-4CE" secondAttribute="bottom" constant="10" id="Jkp-qZ-4uc"/>
+                            <constraint firstItem="2gb-6d-0hV" firstAttribute="leading" secondItem="uIR-rf-jCr" secondAttribute="leading" id="KOB-Pe-VnJ"/>
+                            <constraint firstItem="XXf-0a-4CE" firstAttribute="top" secondItem="00n-ZP-DMZ" secondAttribute="bottom" constant="20" id="RVN-I0-AKo"/>
+                            <constraint firstItem="uIR-rf-jCr" firstAttribute="leading" secondItem="XXf-0a-4CE" secondAttribute="leading" id="aNB-UH-bo2"/>
+                            <constraint firstItem="2gb-6d-0hV" firstAttribute="top" secondItem="uIR-rf-jCr" secondAttribute="bottom" id="oBG-rj-wVa"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jtK-Es-6kO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257.5" y="-305.5"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="FI3-Y3-e9S">
+        <scene sceneID="oNO-AF-FMj">
             <objects>
-                <navigationController id="mOg-s5-EVn" sceneMemberID="viewController">
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jaJ-EG-CTk">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sa5-HZ-tdB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2k4-Jt-0kx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
                     </navigationBar>
+                    <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="pWQ-FO-HGL" kind="relationship" relationship="rootViewController" id="AP8-wA-zCg"/>
+                        <segue destination="pWQ-FO-HGL" kind="relationship" relationship="rootViewController" id="ujR-bu-8Oa"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uLt-TQ-RsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjI-ZQ-CFw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2196" y="-289"/>
+            <point key="canvasLocation" x="-1447" y="-305"/>
         </scene>
     </scenes>
 </document>
